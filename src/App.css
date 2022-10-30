@@ -2,37 +2,108 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #050505;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.container{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgb(6, 57, 139);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  font-weight: bold;
+
+}
+
+input[type=text],select{
+  width: 80%;
+  height: 50px;
+  padding: 12 px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 1px solid beige;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 15%;
+  height: 50px;
+  background-color: #131415;
+  color: rgb(239, 232, 232);
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+
+button:hover{
+
+background-color: rgb(234, 201, 51);
+color: #050505;
+
+
+}
+
+
+.header{
+  width: 100%;
+  padding: 12px 20px;
   color: white;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+.List-heading{
+
+    color: rgb(249, 245, 245);
+    font-size: 50px;
+    text-align: center;
+    background-color: #0d0e0e;
+    width: 60%;
+    height: 80px;
+    margin-left: 30px;
+    border-radius: 25px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.ListData{
+  color: black;
+  font-size: 20px;
+  background-color: antiquewhite;
+  text-align: left;
+  padding-left: 30px;
+  width: 53%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
+
+  margin-left: 30px;
+
+
 }
+
+.btn-position{
+ 
+  position: relative;
+  left:25%;
+  top: -65px;
+
+  
+
+
+}
+
